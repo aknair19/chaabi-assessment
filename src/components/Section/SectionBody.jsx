@@ -3,6 +3,9 @@ import UserStatsCard from "./userStatsCard";
 import CardContainerWrapper from "./CardContainerWrapper";
 import ChapterWiseStatus from "./chapterWiseStatus";
 import StatusChart from "./StatusChart";
+import MonthlyTraining from "./MonthlyTraining";
+import QuizPassingCard from "./QuizPassingCard";
+import CompletionStats from "./CompletionStats";
 
 const SectionBody = () => {
   return (
@@ -15,7 +18,9 @@ const SectionBody = () => {
         <StatusChart />
       </CardContainerWrapper>
       <CardContainerWrapper>
-        
+        <MonthlyTraining />
+        <QuizPassingCard />
+        <CompletionStats />
       </CardContainerWrapper>
     </div>
   );

@@ -86,3 +86,22 @@ export const chapterwiseStatusList = [
     bulletColor: "#ED1C24",
   },
 ];
+
+export const courseList = [
+  {
+    name: "course a",
+    description: "23 Workers Took This Course This Week",
+  },
+  {
+    name: "course b",
+    description: "253 Workers Took This Course This Week",
+  },
+  {
+    name: "course c",
+    description: "230 Workers Took This Course This Week",
+  },
+  {
+    name: "course d",
+    description: "23 Workers Took This Course This Week",
+  },
+];
