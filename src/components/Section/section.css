@@ -1,14 +1,11 @@
-
 /* Section */
 .section-container {
-  background-color:#B4CEFF;
- flex: 1;
- display: flex;
- flex-direction: column;
- gap: 1em;
+  background-color: #b4ceff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
-
-
 
 /* Section Header */
 .section-header {
@@ -28,6 +25,102 @@
 }
 
 /* User Stats Card */
-.section-body-container{
+.section-body-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+.section-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
 
+.usercard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  width: 19.75rem;
+  border-radius: 0.625rem;
+  padding: 1.25rem 1rem;
+}
+.usercard-title {
+  font-weight: lighter;
+}
+
+.usercard-subcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.usercard-subcontainer-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.usercard-subcontainer-1-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.usercard-subcontainer-1-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+  width: 80px;
+  align-items: start;
+}
+.usercard-subcontainer-1-body-text {
+  font-size: 0.875rem;
+  padding-top: 2px;
+}
+
+/* Chaperwise status card */
+
+.chaperWiseStatus-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  width: 19.75rem;
+  border-radius: 0.625rem;
+  padding: 1.6rem 1rem;
+}
+.chaperWiseStatus-title {
+  font-size: 1.3125rem;
+  font-weight: 300;
+}
+
+.chaperWiseStatus-listitem {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: small;
+  width: 90%;
+  padding: 0 10px;
+  gap: 6px;
+  list-style: none;
+  justify-content: space-between;
+}
+.list-custom-dot {
+  width: 10px;
+  margin-right: 8px;
+  height: 10px;
+
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Status Chart  */
+
+.statusChart-container {
+  box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  width: 62.25rem;
+
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: flex-end;
 }
