@@ -1,0 +1,33 @@
+
+/* Section */
+.section-container {
+  background-color:#B4CEFF;
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ gap: 1em;
+}
+
+
+
+/* Section Header */
+.section-header {
+  color: white;
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 7px 30px;
+}
+.section-header-title {
+  font-size: 3rem;
+}
+.section-header-sub {
+  font-weight: 400;
+  font-size: 1.18rem;
+}
+
+/* User Stats Card */
+.section-body-container{
+
+}
