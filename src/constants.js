@@ -10,26 +10,32 @@ export const navbarSections = [
   {
     name: "Dashboard",
     icon: Dashboard,
+    isActive: true,
   },
   {
     name: "Trainings",
     icon: Trainings,
+    isActive: false,
   },
   {
     name: "Users",
     icon: TicketStar,
+    isActive: false,
   },
   {
     name: "Analytics",
     icon: Location,
+    isActive: false,
   },
   {
     name: "My account",
     icon: Location,
+    isActive: false,
   },
   {
     name: "Support",
     icon: Location,
+    isActive: false,
   },
 ];
 

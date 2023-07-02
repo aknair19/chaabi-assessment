@@ -11,10 +11,17 @@ const Navabar = () => {
       <ul className="navbar-nav">
         {navbarSections.map((sections, id) => {
           return (
-            <li key={id} className="navbar-navitems">
+            <li
+              key={id}
+              className="navbar-navitems"
+              
+              style={{
+                backgroundColor: sections?.isActive === true && "#0D62FF",
+              }}
+            >
               <img
-                src={sections.icon}
-                alt="dashboard"
+                src={sections?.icon}
+                alt={sections?.icon}
                 className="navbar-icons"
               />
               <span className="navbar-text">{sections.name}</span>{" "}
